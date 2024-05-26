@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.parent {
+  background-color: steelblue;
+  width: 700px;
+}
+.child {
+  height: 300px;
+  background-color: red;
+}
