@@ -1,0 +1,66 @@
+/* RESET CSS */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button,
+input,
+textarea {
+  font-size: 11px;
+  line-height: 1.25;
+}
+
+button:focus,
+button:active,
+input:focus,
+input:active,
+textarea:focus,
+textarea:active {
+  box-shadow: none;
+  outline: none;
+}
+
+ul,
+ol,
+li {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+/* MAIN CSS */
+
+img {
+  display: block;
+}
+
+.header-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.inner-blank {
+  padding: 15px;
+}
+.main-wrap > img {
+  margin: 0 auto;
+}
+.search-items {
+  text-align: center;
+}
+.btn-group {
+  border: 1px solid black;
+  text-align: center;
+}
+.btn-group button {
+  height: 30px;
+}
