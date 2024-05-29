@@ -47,20 +47,114 @@ img {
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 50px;
 }
 .inner-blank {
   padding: 15px;
 }
+.header-content-first a {
+  display: inline-block;
+}
+.header-content-first a:first-child {
+  margin-right: 10px;
+}
+.header-content-sec i:first-child {
+  margin-right: 10px;
+}
+.header-content-sec a:nth-child(1),
+.header-content-sec a:nth-child(3) {
+  margin-right: 10px;
+}
+.header-content-sec i:first-child,
+.header-content-sec i:last-child {
+  cursor: pointer;
+}
 .main-wrap > img {
   margin: 0 auto;
+  margin-bottom: 30px;
 }
 .search-items {
+  position: relative;
   text-align: center;
+  margin-bottom: 30px;
+  /* border: 1px solid; */
 }
 .btn-group {
-  border: 1px solid black;
   text-align: center;
 }
 .btn-group button {
-  height: 30px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+}
+body {
+  position: relative;
+  height: 100vh;
+}
+
+/* Mouse Hover Design In Main Css */
+
+.search-area:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* FOOTER CSS */
+
+.footer-wrap {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  font-size: 11px;
+}
+.country {
+  border-bottom: 1px solid #dadce0;
+  background-color: #f2f2f2;
+  padding: 15px;
+}
+.copyright {
+  background-color: #f2f2f2;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.copyright-content-first a:nth-child(1),
+.copyright-content-first a:nth-child(2) {
+  margin-right: 10px;
+}
+.copyright-content-sec a:nth-child(1),
+.copyright-content-sec a:nth-child(2) {
+  margin-right: 10px;
+}
+
+/* 검색 필드 CSS */
+
+.search-area {
+  display: inline-block;
+  width: 450px;
+  height: 35px;
+  padding: 10px 50px 10px 50px;
+  border: 1px solid #eaeaea;
+  border-radius: 50px;
+  /* box-shadow: 0 0 0 3px #f8f9fa; */
+}
+.position-item-lupe {
+  position: absolute;
+  top: 17.5px;
+  transform: translate(80%, -50%);
+}
+.position-item-mic {
+  cursor: pointer;
+  position: absolute;
+  top: 17.5px;
+  transform: translate(-180%, -50%);
+}
+.search-items i {
+  color: #d2d2d2;
 }

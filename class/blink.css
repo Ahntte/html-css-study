@@ -1,0 +1,9 @@
+button {
+  border: none;
+  width: 100px;
+  padding: 10px;
+  background-color: steelblue;
+  border-radius: 19px;
+  color: #fff;
+  cursor: pointer;
+}
