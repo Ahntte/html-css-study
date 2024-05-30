@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="google.css" />
+    <link rel="stylesheet" href="./css/google.css" />
     <!-- CDN : content delivery network -->
     <script
       src="https://kit.fontawesome.com/2c827c8cca.js"
@@ -32,31 +32,65 @@
         alt="구글 로고"
         width="271px"
         height="91px"
+        id="logo"
       />
       <div class="search-items">
-        <i class="fa-solid fa-magnifying-glass position-item-lupe"></i>
-        <input type="text" class="search-area" alt="검색" title="검색" />
-        <i class="fa-solid fa-microphone position-item-mic"></i>
+        <i
+          class="fa-solid fa-magnifying-glass position-item-lupe"
+          id="position-item-lupe"
+        ></i>
+        <input
+          type="text"
+          class="search-area"
+          alt="검색"
+          title="검색"
+          placeholder="검색어를 입력해주세요"
+        />
+        <i
+          class="fa-solid fa-microphone position-item-mic"
+          id="position-item-mic"
+        ></i>
       </div>
       <div class="btn-group">
-        <button type="button">Google 검색</button>
-        <button type="button">I'm Feeling Lucky</button>
+        <button
+          type="button"
+          class="buttonGroup"
+          id="srhbtn"
+          data-title="버튼1"
+        >
+          Google 검색
+        </button>
+        <button
+          type="button"
+          class="buttonGroup"
+          id="luckybtn"
+          data-title="버튼2"
+        >
+          I'm Feeling Lucky
+        </button>
       </div>
     </div>
     <!-- footer markup -->
-    <div class="footer-wrap">
-      <div class="country"><span>대한민국</span></div>
-      <div class="copyright">
+    <div class="footer-wrap" id="footer-wrap">
+      <div class="country" id="country"><span>대한민국</span></div>
+      <div class="copyright" id="copyright">
         <div class="copyright-content-first">
-          <a href="#">광고</a><a href="#">비즈니스</a
-          ><a href="#">검색의 원리</a>
+          <a
+            href="https://ads.google.com/intl/ko_kr/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"
+            >광고</a
+          ><a href="https://www.google.com/intl/ko_kr/business/">비즈니스</a
+          ><a href="https://www.google.com/search/howsearchworks/?fg=1"
+            >검색의 원리</a
+          >
         </div>
         <div class="copyright-content-sec">
-          <a href="#">개인정보처리방침</a><a href="#">약관</a
+          <a href="https://policies.google.com/privacy?hl=ko&fg=1"
+            >개인정보처리방침</a
+          ><a href="https://policies.google.com/terms?hl=ko&fg=1">약관</a
           ><a href="#">설정</a>
         </div>
       </div>
     </div>
-    <script src="google.js"></script>
+    <script src="./js/google.js"></script>
   </body>
 </html>

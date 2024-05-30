@@ -1,6 +1,13 @@
 const body = document.body;
 const btn = document.getElementById("btn");
 const fntColor = document.getElementsByClassName("fnt-color");
+const a = document.getElementsByClassName("box");
+console.log(a);
+const arry = [];
+for (let i = 0; i < a.length; i++) {
+  arry[i] = a[i];
+}
+console.log(arry);
 // let isSatus = true;
 let on = 0;
 btn.addEventListener("click", function () {
