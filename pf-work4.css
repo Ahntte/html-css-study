@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.box {
+  display: inline-block;
+  text-align: center;
+  line-height: 12.5;
+  color: #fff;
+  border: none;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 7px;
+  color: #fff;
+  width: 90px;
+  padding: 10px;
+  background-color: #0066ff;
+}
+.r {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(50, 49, 49);
+}
+.g {
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  width: 200px;
+  height: 200px;
+  background-color: black;
+}
+.ex-btn-family {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
