@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="nav-section">
+        <input type="checkbox" id="modal">
+        <label for="modal" class="modal-btn"><i class="fa-solid fa-note-sticky"></i></i></label>
+        <div class="dialog">
+            <div class="tb">
+                <div class="inner">
+                    <div class="top">
+                        <div class="title">Memo</div>
+                        <label for="modal" class="close">&times;</label>
+                    </div>
+                    <div id="memo-list">
+                        
+                    </div>
+                    <input type="text" id="memo-input" placeholder="내용을 입력해주세요.">
+                    <button id="save-memo"><i class="fa-solid fa-plus"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+    <div class="btn-list">
+      <button id="btn-1" class="button btnPush btnBlueGreen">문제1</button>
+      <button id="btn-2" class="button btnPush btnblue">문제2</button>
+      <button id="btn-3" class="button btnPush btnOrange">문제3</button>
+      <button id="btn-4" class="button btnPush btnPurple">문제4</button>
+      <button id="btn-5" class="button btnPush btnPink">문제5</button>
+    </div>
+    <script>
+      const buttonList = [
+        // 버튼들을 담기위해 배열을 선언하고 원소로 버튼객체 하나하나를 담음
+        {
+          id: "btn-1",
+          className: ".matter-1",
+          displayType: "flex",
+          toggle: "false",
+        },
+        // 버튼 on/off 토글기능을 구현하려고 toggle이라는 키를 의도적으로 만든거같음
+        // 처음 기본값은 false로 세팅하고 유저가 버튼을 클릭하면 불린값이 true로 바뀌고 true일때
+        // 의도하는 처리를 구현한듯싶다
+      ];
+    </script>
+  </body>
+</html>
