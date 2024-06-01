@@ -35,6 +35,20 @@ li {
   margin-left: 0;
 }
 
+/* web fonts */
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
 /* header css */
 
 .header {
@@ -45,7 +59,6 @@ li {
   align-items: center;
   height: 80px;
   background-color: black;
-  font-family: "Circular Spotify Text", "Hevetica", san-serif;
 }
 .header-logo-box {
   /* border: 1px solid #fff; */
@@ -71,7 +84,6 @@ li {
   filter: opacity(0.5) drop-shadow(0 0 0 #0066ff);
   background-size: 175%;
   background-position: 46% 4%;
-  font-family: "Circular Spotify Text", "Hevetica", serif;
   color: #4fc5b0;
   display: flex;
   flex-direction: column;
@@ -90,13 +102,11 @@ li {
   position: absolute;
   left: 0;
   top: 0;
-  font-family: "Circular Spotify Text", "Hevetica", sans-serif;
 }
 .main-content-2 {
   position: absolute;
   right: 0;
   bottom: 0;
-  font-family: "Circular Spotify Text", "Hevetica", san-serif;
 }
 .main-content-container-2 {
   /* */
@@ -111,7 +121,7 @@ li {
   border: none;
   border-radius: 500px;
   font-size: inherit;
-  font-family: "Circular Spotify Text", "Hevetica", san-serif;
+
   padding: 14px 32px;
   background-color: #4fc5b0;
   color: rgb(41, 65, 171);
@@ -127,7 +137,7 @@ li {
 .footer {
   background-color: black;
   height: 530px;
-  font-family: "Circular Spotify Text", "Hevetica", san-serif;
+
   display: flex;
   justify-content: center;
 }
