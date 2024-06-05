@@ -9,11 +9,11 @@
 }
 
 .btn-outline-success {
-  border-color: chocolate !important;
-  color: chocolate !important;
+  border-color: rgb(44, 172, 80) !important;
+  color: rgb(44, 172, 80) !important;
 }
 .btn-outline-success:hover {
-  background-color: chocolate !important;
+  background-color: rgb(44, 172, 80) !important;
   color: white !important;
 }
 .navbar-brand {
@@ -67,4 +67,37 @@ footer {
 .third-line {
   text-align: center;
   padding-bottom: 40px;
+}
+.col #a-1:hover {
+  content: "회원가입";
+}
+.right-sort {
+  border-radius: 100px;
+  background-color: #e6ebe5;
+}
+.right-sort li {
+  margin: 0 6px;
+}
+
+.card {
+  cursor: pointer;
+}
+
+.bg-video__content {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+.sec-bg-videro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+}
+.sns-text {
+  text-align: center;
+}
+.bg-video:first-child {
+  margin-right: 20px;
 }
