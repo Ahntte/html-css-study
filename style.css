@@ -35,8 +35,8 @@
   background-color: #212529;
 }
 footer {
-  background-color: #212529;
-  color: #fff;
+  background-color: #f8f9fa;
+  color: #000;
 }
 .pd-size {
   padding: 40px 0;
@@ -45,7 +45,7 @@ footer {
   border-bottom: 1px solid #fff !important;
 }
 .second-line a {
-  color: #fff;
+  color: #000;
   text-decoration: none;
 }
 @media screen and (max-width: 48rem) {
@@ -91,13 +91,30 @@ footer {
 .sec-bg-videro {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   padding: 50px 20px;
+  background-color: #212529;
 }
-.sns-text {
+.ad-text {
   text-align: center;
+  margin-bottom: 55px;
 }
 .bg-video:first-child {
   margin-right: 20px;
+}
+
+.over-bg-ef {
+  text-align: center;
+  border-radius: 100px;
+}
+.over-bg-ef:hover {
+  background-color: rgb(145, 210, 145);
+}
+.logo-txtitle {
+  margin-top: 20px;
+  color: #fff;
+  text-align: center;
+  width: 200px;
+  background-color: #212529;
 }
